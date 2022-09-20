@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 1px solid;
+  margin: 100px auto;
+}
+.list .item {
+  width: 24%;
+  border: 1px solid red;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.list .item .item__img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.list .item .item__text {
+  padding: 10px;
+}
+.list .item .item__text .item__title {
+  font-size: 45px;
+}
+.list .item .item__text .item__category {
+  font-size: 25px;
+  margin: 8px 0;
+}
+.list .item .item__text .item__price {
+  font-size: 18px;
+  margin-bottom: 8px;
+  text-align: justify;
+}
+
+#form {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  margin: 50px auto;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+#form input {
+  width: 215px;
+  display: inline-block;
+  padding: 10px 0 10px 15px;
+  font-weight: 400;
+  color: #377D6A;
+  background: #efefef;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #f7f7f9;
+  font-size: 16px;
+}
+#form .btn {
+  width: 215px;
+  height: 2.5rem;
+  border-radius: 1rem;
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  outline: none;
+  border: none;
+  border: 1px solid #f7f7f9;
+  font-size: 18px;
+}/*# sourceMappingURL=main.css.map */
